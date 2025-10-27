@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { sendAppointmentConfirmationEmail, sendContactMessageEmail, verifyEmailConnection } from './emailService';
+import { sendAppointmentConfirmationEmail, sendContactMessageEmail, verifyEmailConnection } from './emailService.js';
 
 dotenv.config();
 
